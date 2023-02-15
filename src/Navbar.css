@@ -1,0 +1,123 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 300px;
+    align-items: center;
+    padding: 15px 0px;
+    
+  }
+  .task {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+  }
+  .task > img {
+    width: 39.91px;
+  }
+  .taskH {
+    font-family: "Signika Negative";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27.3658px;
+    line-height: 34px;
+    color: #2d0050;
+    text-decoration: none;
+  }
+  .task2 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .task2 > h3 {
+    width: 10ch;
+  }
+  .new {
+    font-family: "Signika Negative";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #292929;
+    text-decoration: none;
+  }
+  .all {
+    font-family: "Signika Negative";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #292929;
+    text-decoration: none;
+  }
+  .task2 > img {
+    width: 60px;
+  }
+  .line {
+    opacity: 0.3;
+  }
+  .hamburger{
+    display: none;
+  }
+  @media (max-width: 912px) {
+    .nav {
+      gap: 150px;
+    }
+  }
+  @media (max-width: 700px) {
+    .nav {
+      gap: 0px;
+    }
+  }
+  @media (max-width: 540px) {
+    .task2 {
+      background-color: white;
+      position: absolute;
+      width: 100%;
+      box-sizing: border-box;
+      padding-left: 50px;
+      transition: 0.5s;
+      top: 8px;
+      gap: 18px;
+    }
+    .task2-Nx {
+      top: -90px;
+      transition: 0.3s;
+    }
+    .task {
+      position: relative;
+    }
+    .hamburger {
+      display: block;
+      z-index: 1;
+    }
+  }
+  @media (max-width: 430px) {
+    .task2 {
+      padding-left: 30px;
+    }
+  }
+  @media (max-width: 400px) {
+    .task2 {
+      padding-left: 10px;
+    }
+  }
+  @media (max-width: 375px) {
+    .task2 > img {
+      width: 50px;
+    }
+    .new{
+        font-size: 20px;
+    }
+    .all{
+        font-size: 20px;
+    }
+  }
+  @media (max-width: 350px) {
+    .task2 > img {
+      display: none;
+    }
+    .task2{
+        padding: 20px 0;
+    }
+  }
