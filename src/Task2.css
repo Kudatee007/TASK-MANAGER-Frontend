@@ -35,85 +35,96 @@
   padding-top: 30px;
   padding-bottom: 15px;
 }
+.urgent2 {
+  color: green;
+  font-family: "Signika Negative";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
 .editDel > div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
 }
-.edit{
-    width: 126px;
-height: 45px;
-background: #974FD0;
-border-radius: 8px;
+.edit {
+  width: 126px;
+  height: 45px;
+  background: #974fd0;
+  border-radius: 8px;
 }
-.del{
-    width: 151px;
-height: 45px;
-border-radius: 8px;
+.del {
+  width: 151px;
+  height: 45px;
+  border-radius: 8px;
 }
-.taskDiv{
+.taskDiv {
   padding: 0 11%;
 }
-.taskBox{
-  border: 1px solid #B8B6B6;
+.taskBox {
+  border: 1px solid #b8b6b6;
   border-radius: 10px;
   padding: 15px;
+  margin-bottom: 40px;
 }
-.line2{
+.line2 {
   opacity: 0.5;
   width: 100%;
 }
-.title{
-  font-family: 'Signika Negative';
-font-style: normal;
-font-weight: 400;
-font-size: 35px;
-line-height: 43px;
-color: #292929;
-padding: 10px 0;
+.title {
+  font-family: "Signika Negative";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 43px;
+  color: #292929;
+  padding: 10px 0;
 }
-.description{
-  font-family: 'Signika Negative';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 30px;
-color: #737171;
-padding-bottom: 30px;
+.description {
+  font-family: "Signika Negative";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #737171;
+  padding-bottom: 30px;
 }
 @media (max-width: 1000px) {
   .editDel > div {
     gap: 17px;
-}
-.edit{
-  width: 106px;
-height: 45px;
-}
-.del{
-  width: 131px;
-height: 45px;
-border-radius: 8px;
-}
+  }
+  .edit {
+    width: 106px;
+    height: 45px;
+  }
+  .del {
+    width: 131px;
+    height: 45px;
+    border-radius: 8px;
+  }
 }
 @media (max-width: 700px) {
-.edit{
-  width: 86px;
-height: 40px;
-}
-.del{
-  width: 119px;
-border-radius: 8px;
-}
+  .edit {
+    width: 86px;
+    height: 40px;
+  }
+  .del {
+    width: 119px;
+    border-radius: 8px;
+  }
 }
 @media (max-width: 540px) {
-  .edit{
+  .edit {
     width: 56px;
-  height: 33px;
+    height: 33px;
   }
-  .del{
+  .del {
     width: 89px;
-  border-radius: 8px;
+    border-radius: 8px;
   }
   .head > h1 {
     font-size: 45px;
@@ -121,40 +132,40 @@ border-radius: 8px;
   .head > h4 {
     font-size: 20px;
   }
-  }
-  @media (max-width: 450px) {
-    .edit{
-      width: 56px;
+}
+@media (max-width: 450px) {
+  .edit {
+    width: 56px;
     height: 30px;
-    }
-    .del{
-      width: 79px;
+  }
+  .del {
+    width: 79px;
     border-radius: 8px;
-    }
-    .head > h1 {
-      font-size: 40px;
-    }
-    }
-    @media (max-width: 420px) {
-      .editDel > div {
-        gap: 10px;
-    }
-    .head > h1 {
-      font-size: 50px;
-      width: 1ch;
-    }
-    }
-    @media (max-width: 330px) {
-      .head > h1 {
-        font-size: 40px;
-        width: 1ch;
-      }
-      .edit{
-        width: 40px;
-      height: 20px;
-      }
-      .del{
-        width: 59px;
-      border-radius: 8px;
-      }
-    }
+  }
+  .head > h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 420px) {
+  .editDel > div {
+    gap: 10px;
+  }
+  .head > h1 {
+    font-size: 50px;
+    width: 1ch;
+  }
+}
+@media (max-width: 330px) {
+  .head > h1 {
+    font-size: 40px;
+    width: 1ch;
+  }
+  .edit {
+    width: 40px;
+    height: 20px;
+  }
+  .del {
+    width: 59px;
+    border-radius: 8px;
+  }
+}

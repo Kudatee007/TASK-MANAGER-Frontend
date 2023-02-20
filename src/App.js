@@ -13,7 +13,7 @@ function App() {
      <Route path="/" element={<Task1 />} />
      <Route path="/newtask" element={<Task3 />} />
      <Route path="/alltask" element={<Task2 />} />
-     <Route path="/edittask" element={<TaskEdit />} />
+     <Route path="/tasks/:taskId" element={<TaskEdit />} />
      </Routes>
     </BrowserRouter>
     </div>
